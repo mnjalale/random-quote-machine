@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Random Quote Machine</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <div class="container-fluid theme-background">
+        <div class="row-fluid">
+            <div class="centering">
+                <!--<img src="images/ajax-loader.gif" id="loading-indicator" style="display:none">-->
+                <blockquote class="theme-color">
+                    <h3 id="quote" class="text-center"></h3>
+                    <footer id="author" class="theme-color text-right"></footer>
+                </blockquote>
+                <div class="row">
+                    <div class="col-xs-6 text-left">
+                        <a class="btn theme-background"
+                           href="https://twitter.com/intent/tweet" target="_blank"
+                            data-size="large">
+                            <i class="fa fa-twitter"></i></a>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <button id="generateQuote" type="button" class="btn theme-background">
+                            <i id="spin-indicator"></i>
+                            New Quote
+                        </button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>

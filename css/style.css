@@ -1,0 +1,62 @@
+html,body {
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+button {
+    color: white;
+    margin: 15px;
+}
+
+button[type=button]:focus{
+    color: white;
+}
+
+button[type=button]:hover{
+    color:white;
+}
+
+a{
+    color: white;
+    margin:15px;
+}
+
+a:hover{
+    color:white;
+}
+a:focus{
+    color:white;
+}
+
+a:visited{
+    color:white;
+}
+
+
+.container-fluid{
+    height: 100%;
+    width: 100%;
+    display: table;
+    padding:0;
+}
+
+.row-fluid{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.centering{
+    float:none;
+    margin:0 auto;
+    width: 500px;
+    background-color: white;
+}
+
+.theme-color{
+    color: limegreen;
+}
+.theme-background{
+    background-color: limegreen;
+}
